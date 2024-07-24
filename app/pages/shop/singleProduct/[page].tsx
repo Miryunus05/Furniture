@@ -3,7 +3,7 @@
 import { GetStaticPaths, GetStaticProps } from 'next';
 import Image from 'next/image';
 import React from 'react';
-import { Product } from '@/pages/index';
+import { Product } from '../index';
 
 interface ProductPageProps {
   product: Product;
